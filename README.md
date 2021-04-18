@@ -2,6 +2,10 @@
 
 Karen Sule
 
+[Github](https://github.com/nerakmari/card-mockup.git)
+
+[GitHub Page](https://nerakmari.github.io/card-mockup/)
+
 ## Attributes
 Image: [Picrew](https://picrew.me/)
 
