@@ -1,0 +1,66 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@700&display=swap'); */
+
+body {
+  font-family: 'Lato', sans-serif; 
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: #333;
+
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+
+.container .card .face{
+  width: 400px;
+  height: 300px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  background: #ff0057;
+  transform: translateY(0);
+}
+
+.container .card .face.face1 .content{
+  transition: 0.5s;
+}
+
+
+.container .card .face.face1 .content img{
+  max-width: 200px;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 1rem;
+}
+
+li a {
+  padding-right:.5rem;
+  color: white;
+}
+
+a:hover {
+  padding: .5rem;
+  background-color: #ff0057;
+}
